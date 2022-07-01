@@ -25,7 +25,7 @@ The pipeline consists of barcode extraction, running mixcr, running QC, and clon
 # clone the repo
 salloc -c 1 -t 2:00:00 --mem=6G -p build
 
-git clone https://github.com/LupienLab/pipeline-chromatin-accessibility.git
+git clone https://github.com/LupienLab/cap-tcr.git
 
 # Update config file
 vi config.yaml
