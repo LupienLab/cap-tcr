@@ -1,0 +1,12 @@
+basedir: /mnt/work1/users/home/anand/cap-tcr
+barcodes: /mnt/work1/users/home/anand/cap-tcr/IDT_barcodesNovaSeq.txt
+extract_barcodes_path: /mnt/work1/users/home/anand/cap-tcr/source/extract_barcodes.py
+inputdir: /mnt/work1/users/home/anand/cap-tcr/mixcr/input
+aligndir: /mnt/work1/users/home/anand/cap-tcr/mixcr/align
+logdir: /mnt/work1/users/home/anand/cap-tcr/mixcr/log/
+clonetrack: /mnt/work1/users/home/anand/cap-tcr/source/clonetrack.R
+pars_log: /mnt/work1/users/home/anand/cap-tcr/source/parse_log.py
+mixcr_path: /mnt/work1/users/home/anand/cap-tcr/source/mixcr.jar
+mixcr_qc: /mnt/work1/users/home/anand/cap-tcr/source/mixcr_QCplot.R
+chain: TRA
+pattern: FAS

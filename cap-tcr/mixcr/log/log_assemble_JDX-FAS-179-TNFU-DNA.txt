@@ -1,0 +1,25 @@
+Analysis date: Fri Jul 01 17:06:49 EDT 2022
+Input file(s): /mnt/work1/users/home/anand/cap-tcr/assemble/extended_JDX-FAS-179-TNFU-DNA.vdjca
+Output file(s): /mnt/work1/users/home/anand/cap-tcr/assemble/JDX-FAS-179-TNFU-DNA.clns
+Version: 3.0.12; built=Wed Nov 20 08:38:34 EST 2019; rev=cad6564; lib=repseqio.v1.6
+Command line arguments: assemble -r /mnt/work1/users/home/anand/cap-tcr/mixcr/log/log_assemble_JDX-FAS-179-TNFU-DNA.txt /mnt/work1/users/home/anand/cap-tcr/assemble/extended_JDX-FAS-179-TNFU-DNA.vdjca /mnt/work1/users/home/anand/cap-tcr/assemble/JDX-FAS-179-TNFU-DNA.clns
+Analysis time: 3.00s
+Final clonotype count: 57
+Average number of reads per clonotype: 1.19
+Reads used in clonotypes, percent of total: 68 (27.87%)
+Reads used in clonotypes before clustering, percent of total: 68 (27.87%)
+Number of reads used as a core, percent of used: 68 (100%)
+Mapped low quality reads, percent of used: 0 (0%)
+Reads clustered in PCR error correction, percent of used: 0 (0%)
+Reads pre-clustered due to the similar VJC-lists, percent of used: 0 (0%)
+Reads dropped due to the lack of a clone sequence, percent of total: 56 (22.95%)
+Reads dropped due to low quality, percent of total: 0 (0%)
+Reads dropped due to failed mapping, percent of total: 6 (2.46%)
+Reads dropped with low quality clones, percent of total: 0 (0%)
+Clonotypes eliminated by PCR error correction: 0
+Clonotypes dropped as low quality: 0
+Clonotypes pre-clustered due to the similar VJC-lists: 0
+TRA chains: 23 (40.35%)
+TRB chains: 14 (24.56%)
+TRG chains: 20 (35.09%)
+======================================
