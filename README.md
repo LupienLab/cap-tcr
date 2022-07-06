@@ -7,12 +7,12 @@ The pipeline consists of barcode extraction, running mixcr, running QC, and clon
 
 
 # Intallation requirements
-1. Python
+1. python-3.4.3 or higher
 2. Biopython (python package)
 3. pandas (python package)
 4. numpy (python package)
 5. matplotlib (python package)
-2. R
+2. R/3.6 or higher
 3. ggplot2 (R-package)
 4. ggalluvial  (R-package)
 5. randomcoloR   (R-package)
