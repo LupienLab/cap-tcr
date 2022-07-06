@@ -133,7 +133,7 @@ rule export_B:
 rule log_pars:
     output:
         a1 = path.join(logdir,"assemble_stats.csv"),
-        #a2 = path.join(logdir,"align_stats.csv")
+        a2 = path.join(logdir,"align_stats.csv")
     shell:
         "python {pars_log} -i  {logdir}  -o {logdir} -pm log_assemble_"
 
