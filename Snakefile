@@ -78,9 +78,10 @@ rule align:
         R1 = path.join(basedir,"{id}_barcode_R1.fastq"),
         R2 = path.join(basedir,"{id}_barcode_R2.fastq"),
      output:
-        vdjca = path.join(aligndir,"alignments_{id}.vdjca")
+        vdjca = path.join(aligndir,"alignments_{id}.vdjca"),
+        log = path.join(logdir,"log_align_{id}.txt")
      shell:
-        "{java_align} {input.R1} {input.R2} {output.vdjca}"
+        "{java_align} {output.log} {input.R1} {input.R2} {output.vdjca}"
 
 rule assemble1:
      input:
