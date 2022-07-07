@@ -78,10 +78,9 @@ rule align:
         R1 = path.join(basedir,"{id}_barcode_R1.fastq"),
         R2 = path.join(basedir,"{id}_barcode_R2.fastq"),
      output:
-        vdjca = path.join(aligndir,"alignments_{id}.vdjca"),
-        log = path.join(logdir,"log_align_{id}.txt")
+        vdjca = path.join(aligndir,"alignments_{id}.vdjca")
      shell:
-        "{java_align} {output.log} {input.R1} {input.R2} {output.vdjca}"
+        "{java_align} {input.R1} {input.R2} {output.vdjca}"
 
 rule assemble1:
      input:
@@ -134,7 +133,7 @@ rule export_B:
 rule log_pars:
     output:
         a1 = path.join(logdir,"assemble_stats.csv"),
-        a2 = path.join(logdir,"align_stats.csv")
+        #a2 = path.join(logdir,"align_stats.csv")
     shell:
         "python {pars_log} -i  {logdir}  -o {logdir} -pm log_assemble_"
 
