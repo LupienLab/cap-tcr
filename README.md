@@ -31,6 +31,6 @@ git clone https://github.com/LupienLab/cap-tcr.git
 vi config.yaml
 
 # Run Snakemake or submit a job
-snakemake -S Snakefile --cores 1
+snakemake -s Snakefile --cores 1
 
 ```
